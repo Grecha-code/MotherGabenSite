@@ -12,11 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <div class = "title">Мать Габена</div>
+    <a class = "title" href="/">Мать Габена</a>
     <ul class = "menu">
-            <li><a href = "/">Главная</a></li>
-            <li><a href = "/about">О нас</a></li>
-            <li><a href = "/profile">Профиль</a></li>
+            <a href="/about" class="button-link">О нас</a>
+            <a href="/profile" class="button-link">Профиль</a>
     </ul>
 </header>
+<div>
+    {% block div %}{% endblock %}
+</div>
 </html>
